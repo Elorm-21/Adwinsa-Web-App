@@ -204,5 +204,40 @@ section {
    margin: 0 auto;
  }
 }
-
-
+  .col-3{
+    float:left;
+    width:25%;
+    padding: 5px;
+    box-shadow: black;
+    margin-top: auto;
+   }
+   .row::after{
+       content:"";
+       display: table;
+       clear:both;
+   }
+  .catlog{
+    background-color: khaki;
+    align-items: center;
+  }
+  .col-3 p{
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .registration{
+    background-color: wheat;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+.registration:hover{
+    opacity: 1;
+}
+.registration{
+  font-weight: bold;
+  border-radius: 250px;
+  width: 150px;
+}
